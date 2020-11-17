@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "cy": "cypress open",
+    "cy:record": "cypress run --record --key 6a572bda-2c7f-4a17-8499-b5c384aaea2a",
     "test": "cypress run --spec cypress/integration/TestSpecs/*.js",
-    "cucumber": "./node_modules/.bin/cypress-tags run --browser chrome --headless",
-    "report": "./node_modules/.bin/cypress-tags run --browser chrome --env allure=true",
+    "cucumber": "cypress-tags run --browser chrome --headless",
+    "report": "cypress-tags run --browser chrome --env allure=true",
     "allure": "allure generate --clean"
   },
   "author": "Sorin Dragomir",
