@@ -5,8 +5,8 @@ export class TodoPage {
         cy.visit('http://todomvc.com/examples/vanilla-es6/')
 
         cy.get('h1')
-            .should('contain', 'todos')
-            .and('be.visible')
+            .should('be.visible')
+            .and('contain', 'todos')
     }
 
     addTodo(todoText) {
