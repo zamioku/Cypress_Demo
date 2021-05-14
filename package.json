@@ -16,9 +16,9 @@
   "dependencies": {},
   "devDependencies": {
     "cucumber-html-reporter": "^5.2.0",
-    "cypress": "^6.1.0",
+    "cypress": "^7.3.0",
     "cypress-cucumber-preprocessor": "^4.0.0",
-    "cypress-parallel": "^0.1.8",
+    "cypress-parallel": "^0.1.9",
     "cypress-xpath": "^1.6.1",
     "multiple-cucumber-html-reporter": "^1.18.0"
   },

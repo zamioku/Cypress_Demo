@@ -6,6 +6,8 @@ var options = {
     output: 'cypress/cucumber-results/cucumber_report.html',
     reportSuiteAsScenarios: true,
     scenarioTimestamp: true,
+    storeScreenshots: true,
+    screenshotsDirectory: 'cypress/screenshots',
     launchReport: true,
     metadata: {
         "App Version": "0.3.2",
