@@ -15,11 +15,11 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "cucumber-html-reporter": "^5.2.0",
-    "cypress": "^7.3.0",
-    "cypress-cucumber-preprocessor": "^4.0.0",
-    "cypress-parallel": "^0.1.9",
-    "cypress-xpath": "^1.6.1",
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress": "^7.7.0",
+    "cypress-cucumber-preprocessor": "^4.1.4",
+    "cypress-parallel": "^0.1.10",
+    "cypress-xpath": "^1.6.2",
     "multiple-cucumber-html-reporter": "^1.18.0"
   },
   "cypress-cucumber-preprocessor": {
